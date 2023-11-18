@@ -1,0 +1,20 @@
+
+.page-not-found-widget .home-page-btn{
+    background-color: transparent;
+
+}
+.page-not-found-widget {
+    font-size: var(--font-size-medium);
+    color: var(--color-main-pinkie-light);
+    display: flex;
+    flex-direction: column;
+}
+.page-not-found-widget *{
+    margin: 0px 0px 10px 0px;
+}
+.page-not-found-widget strong{
+    font-weight: 900;
+    color: var(--color-main-pinkie-light);
+    font-size: var(--font-size-very-big);
+    margin: 120px 0px 20px 0px;
+}

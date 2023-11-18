@@ -1,0 +1,82 @@
+
+
+button{
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 7px 30px;
+    width: fit-content;
+    border: 2px solid var(--color-main-pinkie-light-1);
+    font-size: var(--font-size-main);
+    color: var(--color-main-pinkie-light-1);
+    transition: 0.2s;
+}
+button:hover{
+    background-color: var(--color-main-pinkie-light-1);
+    border: 2px solid transparent;
+    color: var(--color-main-purp);
+    transition: 0.2s;
+}
+
+
+.ui-icon {
+    max-width: 30px;
+}
+
+
+.ui-error-msg{
+    font-weight: 900;
+    color: var(--color-main-pinkie);
+}
+.ui-error-msg.main{
+    font-size: var(--font-size-main);
+}
+.ui-error-msg.small{
+    font-size: var(--font-size-small);
+}
+.ui-error-msg.medium{
+    font-size: var(--font-size-medium);
+}
+.ui-error-msg.big{
+    font-size: var(--font-size-big);
+}
+.ui-error-msg.very-big{
+    font-size: var(--font-size-very-big);
+}
+
+.ui-page-title{
+    color: var(--color-main-pinkie-light);
+    font-size: var(--font-size-very-big);
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+textarea::placeholder,input::placeholder{
+    color: var(--color-main-pinkie-light-1-disable);
+}
+
+input:focus, textarea:focus{
+    border: 2px solid var(--color-main-pinkie-light-1);
+    outline: none;
+    transition: .2s;
+}
+
+input,textarea{
+    
+    border: 2px solid var(--color-main-pinkie-light);
+    background-color: transparent;
+    color: var(--color-main-pinkie-light-1);
+    border-radius: 8px;
+
+    font-size: var(--font-size-medium);
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px;
+    padding: 5px 2px;
+    
+    transition: .2s;
+};

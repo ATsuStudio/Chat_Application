@@ -1,0 +1,39 @@
+
+:root{
+    --color-bg-white-1: rgb(255, 255, 255);
+    --color-bg-white-2: rgb(239, 239, 239);
+    --color-bg-white-3: rgb(216, 216, 216);
+    --color-bg-white-4: rgb(196, 196, 196);
+    --color-text-black-1: rgb(45,45,45);
+    --color-main-purp: rgb(44, 64, 123);
+    --color-main-purp-1: rgb(64, 65, 121);
+    --color-main-purp-2: rgb(94, 66, 117);
+    --color-main-pinkie-dark: rgb(188, 66, 103);
+    --color-main-pinkie-light-1: rgb(242, 210, 224);
+
+    --color-main-pinkie-light-1-disable: rgba(242, 210, 224,0.5);
+    --color-main-pinkie-light: rgb(255 150 231);
+
+    --filter-main-pinkie-light: invert(84%) sepia(15%) saturate(2243%) hue-rotate(278deg) brightness(99%) contrast(104%);
+    
+    --color-main-pinkie: rgb(236, 96, 125);
+    --color-shadow-purp-1: rgba(255 0, 170, 0.1);
+    --color-shadow-purp-2: rgba(255 0, 170, 0.2);
+    --color-shadow-purp-3: rgba(255 0, 170, 0.3);
+    --color-shadow-purp-4: rgba(255 0, 170, 0.4);
+    --color-shadow-purp-5: rgba(255 0, 170, 0.5);
+    --color-shadow-purp-6: rgba(255 0, 170, 0.6);
+
+    --main-linear-gradient: linear-gradient(120deg,var(--color-main-purp-2), var(--color-main-purp));
+    --main-linear-gradient-mirror: linear-gradient(330deg,var(--color-main-purp-2), var(--color-main-purp));
+
+    --size-main-content: 1220px;
+    
+    --font-size-very-big: 60px;
+    --font-size-big: 40px;
+    --font-size-medium: 20px;
+    --font-size-small: 10px;
+    --font-size-main: 16px;
+
+    --border-radius: 8px;
+}

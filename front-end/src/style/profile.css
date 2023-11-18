@@ -1,0 +1,46 @@
+.user-profile-block{
+    display: flex;
+    flex-direction: column;
+}
+.user-profile-block.show{
+    
+    color: var(--color-main-pinkie-light-1);
+    width: 100%;
+    border-radius: 10px;
+
+    text-decoration: none;
+    list-style: none;
+    font-size: var(--font-size-medium);
+}
+
+.user-profile-block.show td{
+    border-radius: 5px;
+    padding: 2px;
+}
+.user-profile-block.show td:hover{
+    background-color: var(--color-shadow-purp-4);
+}
+
+.user-profile-block.show tr:hover{
+    background-color: var(--color-shadow-purp-2);
+}
+
+
+
+
+.user-profile-block.edit{
+    font-size: var(--font-size-medium);
+}
+form label{
+    max-width: max(500px);
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+.user-profile-block.edit form button{
+    margin: 0px 5px 0px 0px;
+}
+
+
+
+

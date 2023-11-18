@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&display=swap');
+.lobby{
+    margin: 0px auto;
+    font-family: 'Lato', sans-serif;
+}
+.lobby-header{
+    margin: 120px 0px 0px 0px;
+}
+.lobby-header strong{
+    font-weight: 900;
+    letter-spacing: -1px;
+    font-size: 60px;
+    color: var(--color-main-pinkie-light);
+}
+.lobby-body{
+    margin: 10px 0px 0px 0px;
+}
+.lobby-body p{
+    max-width: 60%;
+    font-size: 20px;
+    padding: 0px 0px 10px 0px ;
+
+}
+.lobby-body button{
+    color: var(--color-main-purp);
+    font-weight: 700;
+    font-size: 18px;
+    background-color: var(--color-main-pinkie-light);
+    padding: 10px 50px;
+    border: 2px solid var(--color-main-purp-2);
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.lobby-body button:hover{
+    background-color:transparent;
+    color:var(--color-main-pinkie-light) ;
+    border: 2px solid var(--color-main-pinkie-light);
+    transition: 0.2s;
+}

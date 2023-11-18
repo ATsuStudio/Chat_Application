@@ -1,0 +1,35 @@
+.user-list-module{
+    color: var(--color-main-pinkie-light);
+    display: flex;
+    flex-direction: column;
+}
+.user-list-module *{
+    margin: 0px 0px 5px 0px;
+}
+.user-list-module p{
+    font-size: var(--font-size-medium);
+}
+.user-list td{
+    border-radius: 5px;
+    padding: 2px;
+}
+.user-list td:hover{
+    background-color: var(--color-shadow-purp-4);
+}
+
+.user-list tr:hover{
+    background-color: var(--color-shadow-purp-2);
+}
+.user-list{
+    color: var(--color-main-pinkie-light-1);
+    width: 100%;
+    border: 2px solid var(--color-main-pinkie-light-1);
+    border-radius: 10px;
+}
+
+@media (max-width: 1220px) {
+    .user-list{
+        display: block;
+        overflow-x: scroll;
+    }
+}
